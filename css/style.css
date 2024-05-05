@@ -38,31 +38,6 @@ img {
     cursor: pointer;
 }
 
-.basicLightbox {
-    background-color: rgba(46, 47, 66, 0.8);
-    position: fixed;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    visibility: hidden;
-    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1), visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.basicLightbox--visible {
-    opacity: 1;
-    visibility: visible;
-}
-
-.basicLightbox__placeholder {
-    position:inherit;
-    width: 1112px;
-    left:50%;
-    top:50%;
-    transform:translate(-50%,-50%);
-}
-
 .modal-image {
     width: 1112px;
 }

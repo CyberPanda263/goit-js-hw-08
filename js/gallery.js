@@ -95,8 +95,6 @@ function createModal(link) {
     modalImage.classList = "modal-image";
     modalImage.src = link;
     modalBox.append(modalImage);
-    modal = modalBox;
-    console.log(modal.target);
     const modalwindol = basicLightbox.create(modalBox);
     modalwindol.show();
     const close = document.querySelector("div.basicLightbox__placeholder");
